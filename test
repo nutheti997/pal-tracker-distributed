@@ -1,0 +1,11 @@
+
+
+
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDistributedSystemDeployment \
+    -PregistrationServerUrl=https://registration-pal-wipro.apps.evans.pal.pivotal.io \
+    -PbacklogServerUrl=http://backlog-pal-wipro.apps.evans.pal.pivotal.io \
+    -PallocationsServerUrl=http://allocations-pal-wipro.apps.evans.pal.pivotal.io \
+    -PtimesheetsServerUrl=http://timesheets-pal-wipro.apps.evans.pal.pivotal.io
+
+    http://timesheets-pal-wipro.apps.evans.pal.pivotal.io
